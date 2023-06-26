@@ -18,6 +18,6 @@ if __name__=='__main__':
     SR.report_card(1, io.StringIO(), True)
     SR.report_file(io.StringIO())
 
-    SR.report_card(1, sys.stdout, True)
+    SR.report_card(1, sys.stdout, False)
     SR.report_file(sys.stdout)
   
